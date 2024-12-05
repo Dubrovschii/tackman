@@ -7,33 +7,33 @@ import Skipas from "@/components/Skipas/Skipas.vue";
 const apiStore = useApiStore();
 const slides = [
   {
-    src: "src/assets/image/summer01/summer-01.webp",
+    src: "@/assets/image/summer01/summer-01.webp",
   },
   {
-    src: "src/assets/image/summer01/summer-02.webp",
+    src: "@/assets/image/summer01/summer-02.webp",
   },
   {
-    src: "src/assets/image/summer01/summer-03.webp",
+    src: "@/assets/image/summer01/summer-03.webp",
   },
   {
-    src: "src/assets/image/summer01/summer-04.webp",
+    src: "@/assets/image/summer01/summer-04.webp",
   },
   {
-    src: "src/assets/image/summer01/summer-05.webp",
+    src: "@/assets/image/summer01/summer-05.webp",
   },
 ];
 const slides2 = [
   {
-    src: "src/assets/image/summer02/summer02-01.webp",
+    src: "@/assets/image/summer02/summer02-01.webp",
   },
   {
-    src: "src/assets/image/summer02/summer02-02.webp",
+    src: "@/assets/image/summer02/summer02-02.webp",
   },
   {
-    src: "src/assets/image/summer02/summer02-03.webp",
+    src: "@/assets/image/summer02/summer02-03.webp",
   },
   {
-    src: "src/assets/image/summer02/summer02-04.webp",
+    src: "@/assets/image/summer02/summer02-04.webp",
   },
 ];
 </script>

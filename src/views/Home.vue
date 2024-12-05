@@ -32,25 +32,25 @@ const swiperOptions = {
 
 const slides = [
   {
-    src: "src/assets/image/Slider1/img1.png",
+    src: "@/assets/image/Slider1/img1.png",
     title: "Аренда инструктора",
     text: "Весь спектр услуг от проката инвентаря до катанияна снегоходах!",
   },
   {
-    src: "src/assets/image/Slider1/img2.png",
+    src: "@/assets/image/Slider1/img2.png",
     title: "Прокат снаряжения",
     text: "Весь спектр услуг от проката инвентаря до катанияна снегоходах!",
   },
   {
-    src: "src/assets/image/Slider1/img3.png",
+    src: "@/assets/image/Slider1/img3.png",
     title: "Сноутюбинг",
     text: "Весь спектр услуг от проката инвентаря до катанияна снегоходах!",
   },
 ];
 const slidesAfisha = [
-  { src: "src/assets/image/SliderPoster/1 901.png" },
-  { src: "src/assets/image/SliderPoster/IMG_0235 1.png" },
-  { src: "src/assets/image/SliderPoster/IMG_7209 1.png" },
+  { src: "@/assets/image/SliderPoster/1 901.png" },
+  { src: "@/assets/image/SliderPoster/IMG_0235 1.png" },
+  { src: "@/assets/image/SliderPoster/IMG_7209 1.png" },
 ];
 const spaceBetween = ref(50);
 const slidesPerView = ref(2);
@@ -105,7 +105,7 @@ onMounted(() => {
   <Header />
   <section class="promo">
     <video
-      src="../assets/video/video-promo-home.mp4"
+      src="@/assets/video/video-promo-home.mp4"
       autoplay
       loop
       muted
@@ -253,7 +253,7 @@ onMounted(() => {
   }
 }
 .accomandation {
-  background: url("../assets/bg/accomandation/accomodation.png");
+  background: url("@/assets/bg/accomandation/accomodation.png");
   background-size: cover;
   background-position: 70%;
   min-height: 100vh;
