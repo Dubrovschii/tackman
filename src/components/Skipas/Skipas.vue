@@ -130,16 +130,16 @@ const checkCard = () => {
         <v-card-actions>
           <div class="pay-icon">
             <div class="icons">
-              <img src="../assets/icons/pay/image 16.png" alt="" />
+              <img src="@/assets/icons/pay/image 16.png" alt="" />
             </div>
             <div class="icons">
-              <img src="../assets/icons/pay/image 17.png" alt="" />
+              <img src="@/assets/icons/pay/image 17.png" alt="" />
             </div>
             <div class="icons">
-              <img src="../assets/icons/pay/image 18.png" alt="" />
+              <img src="@/assets/icons/pay/image 18.png" alt="" />
             </div>
             <div class="icons">
-              <img src="../assets/icons/pay/image 19.png" alt="" />
+              <img src="@/assets/icons/pay/image 19.png" alt="" />
             </div>
           </div>
         </v-card-actions>
@@ -267,16 +267,16 @@ const checkCard = () => {
           <!-- <v-spacer></v-spacer> -->
           <div class="pay-icon">
             <div class="icons">
-              <img src="../assets/icons/pay/image 16.png" alt="" />
+              <img src="@/assets/icons/pay/image 16.png" alt="" />
             </div>
             <div class="icons">
-              <img src="../assets/icons/pay/image 17.png" alt="" />
+              <img src="@/assets/icons/pay/image 17.png" alt="" />
             </div>
             <div class="icons">
-              <img src="../assets/icons/pay/image 18.png" alt="" />
+              <img src="@/assets/icons/pay/image 18.png" alt="" />
             </div>
             <div class="icons">
-              <img src="../assets/icons/pay/image 19.png" alt="" />
+              <img src="@/assets/icons/pay/image 19.png" alt="" />
             </div>
           </div>
         </v-card-actions>

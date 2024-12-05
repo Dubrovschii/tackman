@@ -47,7 +47,7 @@ import Map from "@/components/Map/Map.vue";
       <div class="col-md-6 col-sm-12 col-black">
         <div class="item">
           <RouterLink to="/">
-            <img src="../assets/icons/logo.svg" alt="" />
+            <img src="@/assets/icons/logo.svg" alt="" />
           </RouterLink>
           <div class="item__descr">
             Правила пользования услугами курорта Политика в отношении обработки
