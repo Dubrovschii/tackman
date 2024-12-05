@@ -166,11 +166,11 @@ const isActive = (path) => {
           />
         </a>
       </div>
-      <div class="mobmenu__btn">
+      <!-- <div class="mobmenu__btn">
         <v-btn variant="outlined" color="#fff" height="52px" width="177px">
           Купить онлайн
         </v-btn>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
