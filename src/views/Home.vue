@@ -11,6 +11,14 @@ import { EffectFlip, Pagination, Navigation } from "swiper/modules";
 
 import Skipas from "@/components/Skipas/Skipas.vue";
 
+import img1 from "@/assets/image/Slider1/img1.png";
+import img2 from "@/assets/image/Slider1/img2.png";
+import img3 from "@/assets/image/Slider1/img3.png";
+
+import poster1 from "@/assets/image/SliderPoster/1 901.png";
+import poster2 from "@/assets/image/SliderPoster/IMG_0235 1.png";
+import poster3 from "@/assets/image/SliderPoster/IMG_7209 1.png";
+
 const apiStore = useApiStore();
 const modules = [Navigation, EffectFlip];
 const emit = defineEmits();
@@ -32,26 +40,22 @@ const swiperOptions = {
 
 const slides = [
   {
-    src: "src/assets/image/Slider1/img1.png",
+    src: img1,
     title: "Аренда инструктора",
     text: "Весь спектр услуг от проката инвентаря до катанияна снегоходах!",
   },
   {
-    src: "src/assets/image/Slider1/img2.png",
+    src: img2,
     title: "Прокат снаряжения",
     text: "Весь спектр услуг от проката инвентаря до катанияна снегоходах!",
   },
   {
-    src: "src/assets/image/Slider1/img3.png",
+    src: img3,
     title: "Сноутюбинг",
     text: "Весь спектр услуг от проката инвентаря до катанияна снегоходах!",
   },
 ];
-const slidesAfisha = [
-  { src: "../assets/image/SliderPoster/1 901.png" },
-  { src: "../assets/image/SliderPoster/IMG_0235 1.png" },
-  { src: "../assets/image/SliderPoster/IMG_7209 1.png" },
-];
+const slidesAfisha = [{ src: poster1 }, { src: poster2 }, { src: poster3 }];
 const spaceBetween = ref(50);
 const slidesPerView = ref(2);
 const spaceBetweenAfisha = ref(0);

@@ -16,73 +16,73 @@ const toggleDialog = (dialog) => {
 };
 const slides = [
   {
-    src: "src/assets/bg/servies/slider-1/servies-01.webp",
+    src: "@/assets/bg/servies/slider-1/servies-01.webp",
   },
   {
-    src: "src/assets/bg/servies/slider-1/servies-02.webp",
+    src: "@/assets/bg/servies/slider-1/servies-02.webp",
   },
   {
-    src: "src/assets/bg/servies/slider-1/servies-03.webp",
+    src: "@/assets/bg/servies/slider-1/servies-03.webp",
   },
   {
-    src: "src/assets/bg/servies/slider-1/servies-04.webp",
+    src: "@/assets/bg/servies/slider-1/servies-04.webp",
   },
   {
-    src: "src/assets/bg/servies/slider-1/servies-05.webp",
+    src: "@/assets/bg/servies/slider-1/servies-05.webp",
   },
   {
-    src: "src/assets/bg/servies/slider-1/servies-06.webp",
+    src: "@/assets/bg/servies/slider-1/servies-06.webp",
   },
 ];
 const slides2 = [
   {
-    src: "src/assets/bg/servies/slider-1.5/stolovaia-01.webp",
+    src: "@/assets/bg/servies/slider-1.5/stolovaia-01.webp",
     title: "Столовая",
     text: "Большая столовая с невероятными панорамным видом!",
   },
   {
-    src: "src/assets/bg/servies/slider-2/for-rent-01.webp",
+    src: "@/assets/bg/servies/slider-2/for-rent-01.webp",
     title: "Velvet burgers + Red cup",
     text: "Весь спектр услуг от проката инвентаря до катанияна снегоходах!",
   },
   {
-    src: "src/assets/bg/servies/slider-1.5/stolovaia-02.webp",
+    src: "@/assets/bg/servies/slider-1.5/stolovaia-02.webp",
     title: "Velvet coffee",
     text: "Пиццерия и кофейня с панорамным видом прямо на склон!",
   },
 ];
 const slides3 = [
   {
-    src: "src/assets/bg/servies/slider-2/for-rent-02.webp",
+    src: "@/assets/bg/servies/slider-2/for-rent-02.webp",
   },
   {
-    src: "src/assets/bg/servies/slider-2/for-rent-03.webp",
+    src: "@/assets/bg/servies/slider-2/for-rent-03.webp",
   },
   {
-    src: "src/assets/bg/servies/slider-2/for-rent-04.webp",
+    src: "@/assets/bg/servies/slider-2/for-rent-04.webp",
   },
   {
-    src: "src/assets/bg/servies/slider-2/for-rent-05.webp",
+    src: "@/assets/bg/servies/slider-2/for-rent-05.webp",
   },
   {
-    src: "src/assets/bg/servies/slider-2/for-rent-06.webp",
+    src: "@/assets/bg/servies/slider-2/for-rent-06.webp",
   },
 ];
 const slides4 = [
   {
-    src: "src/assets/bg/servies/slider-3/snowbing-01.webp",
+    src: "@/assets/bg/servies/slider-3/snowbing-01.webp",
   },
   {
-    src: "src/assets/bg/servies/slider-3/snowbing-02.webp",
+    src: "@/assets/bg/servies/slider-3/snowbing-02.webp",
   },
   {
-    src: "src/assets/bg/servies/slider-3/snowbing-03.webp",
+    src: "@/assets/bg/servies/slider-3/snowbing-03.webp",
   },
   {
-    src: "src/assets/bg/servies/slider-3/snowbing-04.webp",
+    src: "@/assets/bg/servies/slider-3/snowbing-04.webp",
   },
   {
-    src: "src/assets/bg/servies/slider-3/snowbing-05.webp",
+    src: "@/assets/bg/servies/slider-3/snowbing-05.webp",
   },
 ];
 </script>
@@ -91,7 +91,7 @@ const slides4 = [
   <Header />
   <section class="servies">
     <video
-      src="../assets/video/video-home.mp4"
+      src="@/assets/video/video-home.mp4"
       autoplay
       loop
       muted
@@ -192,7 +192,7 @@ const slides4 = [
   </section>
   <section class="snowhod">
     <video
-      src="../assets/video/video-snowhod.mp4"
+      src="@/assets/video/video-snowhod.mp4"
       autoplay
       loop
       muted
