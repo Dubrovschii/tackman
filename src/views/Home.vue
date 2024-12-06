@@ -11,13 +11,13 @@ import { EffectFlip, Pagination, Navigation } from "swiper/modules";
 
 import Skipas from "@/components/Skipas/Skipas.vue";
 
-import img1 from "@/assets/image/Slider1/img1.png";
-import img2 from "@/assets/image/Slider1/img2.png";
-import img3 from "@/assets/image/Slider1/img3.png";
+import img1 from "@/assets/imagesliders/Slider1/img1.png";
+import img2 from "@/assets/imagesliders/Slider1/img2.png";
+import img3 from "@/assets/imagesliders/Slider1/img3.png";
 
-import poster1 from "@/assets/image/SliderPoster/1 901.png";
-import poster2 from "@/assets/image/SliderPoster/IMG_0235 1.png";
-import poster3 from "@/assets/image/SliderPoster/IMG_7209 1.png";
+import poster1 from "@/assets/imagesliders/SliderPoster/1 901.png";
+import poster2 from "@/assets/imagesliders/SliderPoster/IMG_0235 1.png";
+import poster3 from "@/assets/imagesliders/SliderPoster/IMG_7209 1.png";
 
 const apiStore = useApiStore();
 const modules = [Navigation, EffectFlip];
