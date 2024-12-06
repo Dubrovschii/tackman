@@ -4,36 +4,48 @@ import Slider from "@/components/Slider/Slider.vue";
 import Footer from "@/components/Footer/Footer.vue";
 import { useApiStore } from "@/stores/ApiStore";
 import Skipas from "@/components/Skipas/Skipas.vue";
+
+import img1 from "@/assets/imagesliders/summer01/summer-01.webp";
+import img2 from "@/assets/imagesliders/summer01/summer-02.webp";
+import img3 from "@/assets/imagesliders/summer01/summer-03.webp";
+import img4 from "@/assets/imagesliders/summer01/summer-04.webp";
+import img5 from "@/assets/imagesliders/summer01/summer-05.webp";
+
+import img6 from "@/assets/imagesliders/summer02/summer02-01.webp";
+import img7 from "@/assets/imagesliders/summer02/summer02-02.webp";
+import img8 from "@/assets/imagesliders/summer02/summer02-03.webp";
+import img9 from "@/assets/imagesliders/summer02/summer02-04.webp";
 const apiStore = useApiStore();
+
 const slides = [
   {
-    src: "@/assets/image/summer01/summer-01.webp",
+    src: img1,
   },
   {
-    src: "@/assets/image/summer01/summer-02.webp",
+    src: img2,
   },
   {
-    src: "@/assets/image/summer01/summer-03.webp",
+    src: img3,
   },
   {
-    src: "@/assets/image/summer01/summer-04.webp",
+    src: img4,
   },
   {
-    src: "@/assets/image/summer01/summer-05.webp",
+    src: img5,
   },
 ];
 const slides2 = [
   {
-    src: "@/assets/image/summer02/summer02-01.webp",
+    src: img6,
   },
   {
-    src: "@/assets/image/summer02/summer02-02.webp",
+    src: img7,
   },
   {
-    src: "@/assets/image/summer02/summer02-03.webp",
+    src: img8,
   },
   {
-    src: "@/assets/image/summer02/summer02-04.webp",
+    src: img9,
   },
 ];
 </script>

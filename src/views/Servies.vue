@@ -6,6 +6,29 @@ import { ref, onMounted } from "vue";
 import Skipas from "@/components/Skipas/Skipas.vue";
 import { useApiStore } from "@/stores/ApiStore";
 
+import img1 from "@/assets/bg/servies/slider-1/servies-01.webp";
+import img2 from "@/assets/bg/servies/slider-1/servies-02.webp";
+import img3 from "@/assets/bg/servies/slider-1/servies-03.webp";
+import img4 from "@/assets/bg/servies/slider-1/servies-04.webp";
+import img5 from "@/assets/bg/servies/slider-1/servies-05.webp";
+import img6 from "@/assets/bg/servies/slider-1/servies-06.webp";
+
+import img7 from "@/assets/bg/servies/slider-1.5/stolovaia-01.webp";
+import img8 from "@/assets/bg/servies/slider-2/for-rent-01.webp";
+import img9 from "@/assets/bg/servies/slider-1.5/stolovaia-02.webp";
+
+import img10 from "@/assets/bg/servies/slider-2/for-rent-02.webp";
+import img11 from "@/assets/bg/servies/slider-2/for-rent-03.webp";
+import img12 from "@/assets/bg/servies/slider-2/for-rent-04.webp";
+import img13 from "@/assets/bg/servies/slider-2/for-rent-05.webp";
+import img14 from "@/assets/bg/servies/slider-2/for-rent-06.webp";
+
+import img15 from "@/assets/bg/servies/slider-3/snowbing-01.webp";
+import img16 from "@/assets/bg/servies/slider-3/snowbing-02.webp";
+import img17 from "@/assets/bg/servies/slider-3/snowbing-03.webp";
+import img18 from "@/assets/bg/servies/slider-3/snowbing-04.webp";
+import img19 from "@/assets/bg/servies/slider-3/snowbing-05.webp";
+
 const apiStore = useApiStore();
 
 const toggleDialog1 = () => {
@@ -16,73 +39,73 @@ const toggleDialog = (dialog) => {
 };
 const slides = [
   {
-    src: "@/assets/bg/servies/slider-1/servies-01.webp",
+    src: img1,
   },
   {
-    src: "@/assets/bg/servies/slider-1/servies-02.webp",
+    src: img2,
   },
   {
-    src: "@/assets/bg/servies/slider-1/servies-03.webp",
+    src: img3,
   },
   {
-    src: "@/assets/bg/servies/slider-1/servies-04.webp",
+    src: img4,
   },
   {
-    src: "@/assets/bg/servies/slider-1/servies-05.webp",
+    src: img5,
   },
   {
-    src: "@/assets/bg/servies/slider-1/servies-06.webp",
+    src: img6,
   },
 ];
 const slides2 = [
   {
-    src: "@/assets/bg/servies/slider-1.5/stolovaia-01.webp",
+    src: img7,
     title: "Столовая",
     text: "Большая столовая с невероятными панорамным видом!",
   },
   {
-    src: "@/assets/bg/servies/slider-2/for-rent-01.webp",
+    src: img8,
     title: "Velvet burgers + Red cup",
     text: "Весь спектр услуг от проката инвентаря до катанияна снегоходах!",
   },
   {
-    src: "@/assets/bg/servies/slider-1.5/stolovaia-02.webp",
+    src: img9,
     title: "Velvet coffee",
     text: "Пиццерия и кофейня с панорамным видом прямо на склон!",
   },
 ];
 const slides3 = [
   {
-    src: "@/assets/bg/servies/slider-2/for-rent-02.webp",
+    src: img10,
   },
   {
-    src: "@/assets/bg/servies/slider-2/for-rent-03.webp",
+    src: img11,
   },
   {
-    src: "@/assets/bg/servies/slider-2/for-rent-04.webp",
+    src: img12,
   },
   {
-    src: "@/assets/bg/servies/slider-2/for-rent-05.webp",
+    src: img13,
   },
   {
-    src: "@/assets/bg/servies/slider-2/for-rent-06.webp",
+    src: img14,
   },
 ];
 const slides4 = [
   {
-    src: "@/assets/bg/servies/slider-3/snowbing-01.webp",
+    src: img15,
   },
   {
-    src: "@/assets/bg/servies/slider-3/snowbing-02.webp",
+    src: img16,
   },
   {
-    src: "@/assets/bg/servies/slider-3/snowbing-03.webp",
+    src: img17,
   },
   {
-    src: "@/assets/bg/servies/slider-3/snowbing-04.webp",
+    src: img18,
   },
   {
-    src: "@/assets/bg/servies/slider-3/snowbing-05.webp",
+    src: img19,
   },
 ];
 </script>
