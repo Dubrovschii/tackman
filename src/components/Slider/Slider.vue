@@ -3,8 +3,8 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 
-import arrowPrev from "../../assets/icons/arrowPrev.svg";
-import arrowNext from "../../assets/icons/arrowNext.svg";
+import arrowPrev from "@/assets/icons/arrow-back.svg";
+import arrowNext from "@/assets/icons/arrow-next.svg";
 
 import "swiper/css/navigation";
 
@@ -12,7 +12,7 @@ const modules = [Navigation];
 
 const swiperOptions = {
   navigation: true,
-  // Другие параметры Swiper
+  loop: true,
 };
 const props = defineProps({
   slides: {
@@ -38,8 +38,16 @@ const props = defineProps({
         <p>{{ slide.text }}</p>
       </div>
     </SwiperSlide>
-    <div class="custom-next"><img :src="arrowNext" alt="" /></div>
-    <div class="custom-prev"><img :src="arrowPrev" alt="" /></div>
+    <div class="custom-next">
+      <figure>
+        <img :src="arrowNext" alt="" />
+      </figure>
+    </div>
+    <div class="custom-prev">
+      <figure>
+        <img :src="arrowPrev" alt="" />
+      </figure>
+    </div>
   </swiper>
 </template>
 
@@ -90,13 +98,35 @@ const props = defineProps({
   font-size: 18px;
   z-index: 100;
   font-weight: bold;
-}
+  width: 50px;
+  height: 50px;
+  box-shadow: 1px 0px 7px 1px #181f26;
 
+  background: #fff;
+  border-radius: 50%;
+  figure {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+  }
+}
+.swiper-button-disabled {
+  opacity: 0.5;
+}
 .custom-next {
-  right: 0;
+  right: 20px;
 }
 
 .custom-prev {
-  left: 0;
+  left: 20px;
 }
 </style>

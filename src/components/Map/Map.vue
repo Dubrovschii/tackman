@@ -84,7 +84,8 @@ onMounted(async () => {
 #map {
   width: 100%;
   height: 500px;
-  margin-top: 365px;
+  /* margin-top: 365px; */
+  display: flex;
 }
 .yandex-balloon {
   height: 200px;

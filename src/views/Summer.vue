@@ -93,10 +93,10 @@ const slides2 = [
 .summer {
   background-size: cover;
   background-position: 100%;
-  min-height: 100vh;
-  .swiper {
-    height: 100vh;
-  }
+  // min-height: 100vh;
+  // .swiper {
+  //   height: 100vh;
+  // }
   &__content {
     top: 80%;
   }
@@ -105,13 +105,13 @@ const slides2 = [
   background: var(--color-third);
   background-size: cover;
   background-position: 100%;
-  min-height: 100vh;
+  // min-height: 100vh;
   &__content {
     top: 80%;
   }
-  .swiper {
-    height: 100vh;
-  }
+  // .swiper {
+  //   height: 100vh;
+  // }
 }
 .mySwiper__slide img {
   padding-bottom: 0 !important;

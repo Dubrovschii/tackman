@@ -245,8 +245,9 @@ onMounted(() => {
 .afisha__slider {
   max-height: 900px;
   height: auto;
+  margin-bottom: 40px;
   img {
-    max-height: 888px;
+    // max-height: 826px;
     height: 100%;
     max-width: 710px;
     width: 100%;
@@ -405,7 +406,7 @@ onMounted(() => {
 }
 .pay-icon {
   display: flex;
-  padding-right: 24px;
+  // padding-right: 24px;
   .icons {
     padding: 0 5px;
   }

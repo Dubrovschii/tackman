@@ -4,35 +4,39 @@ import Map from "@/components/Map/Map.vue";
 <template>
   <section class="contant col-sm-12">
     <div class="w100 container__big">
-      <div class="col-md-6 col-sm-12 col-white">
-        <div class="item">
-          <h2 class="item__title">Как добраться</h2>
-          <div class="item__descr">
-            Скорый электропоезд "Ласточка" довезет Вас до Чусового,где
-            производится пересадка на автобусный трансфер до Горнолыжного
-            курорта "Такман".
+      <div class="col-sm-12">
+        <div class="row footer__row">
+          <div class="col-md-6 col-sm-12 col-white">
+            <div class="item">
+              <h2 class="item__title">Как добраться</h2>
+              <div class="item__descr">
+                Скорый электропоезд "Ласточка" довезет Вас до Чусового,где
+                производится пересадка на автобусный трансфер до Горнолыжного
+                курорта "Такман".
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-12 col-black">
-        <div class="item">
-          <h2 class="item__title">График работы</h2>
-          <div class="item__descr col-sm-12">
-            <div class="col-sm-6">
-              <div class="small-title">Администрация</div>
-              <div class="small-descr">Ежедневно с 9:00 до 23:00</div>
-            </div>
-            <div class="col-sm-6">
-              <div class="small-title">Прокат</div>
-              <div class="small-descr">Ежедневно с 9:00 до 23:00</div>
-            </div>
-            <div class="col-sm-6">
-              <div class="small-title">Кафе</div>
-              <div class="small-descr">Ежедневно с 9:00 до 23:00</div>
-            </div>
-            <div class="col-sm-6">
-              <div class="small-title">Инструкторы</div>
-              <div class="small-descr">Ежедневно с 9:00 до 23:00</div>
+          <div class="col-md-6 col-sm-12 col-black">
+            <div class="item">
+              <h2 class="item__title">График работы</h2>
+              <div class="item__descr col-sm-12">
+                <div class="col-sm-6">
+                  <div class="small-title">Администрация</div>
+                  <div class="small-descr">Ежедневно с 9:00 до 23:00</div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="small-title">Прокат</div>
+                  <div class="small-descr">Ежедневно с 9:00 до 23:00</div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="small-title">Кафе</div>
+                  <div class="small-descr">Ежедневно с 9:00 до 23:00</div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="small-title">Инструкторы</div>
+                  <div class="small-descr">Ежедневно с 9:00 до 23:00</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -44,28 +48,32 @@ import Map from "@/components/Map/Map.vue";
   </section>
   <section class="contact-invers col-sm-12">
     <div class="w100 container__big">
-      <div class="col-md-6 col-sm-12 col-black">
-        <div class="item">
-          <RouterLink to="/">
-            <img src="@/assets/icons/logo.svg" alt="" />
-          </RouterLink>
-          <div class="item__descr">
-            Правила пользования услугами курорта Политика в отношении обработки
-            персональных данных <br />
-            © ООО «Движение» 2023. Все права защищены.
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-12 col-white">
-        <div class="item">
-          <h2 class="item__title">График работы</h2>
-          <div class="item__descr">
-            <div class="adress">
-              618206, Пермский край, г. Чусовой, ул. Мира, 17, оф. 401
+      <div class="col-sm-12">
+        <div class="row footer__row">
+          <div class="col-md-6 col-sm-12 col-black">
+            <div class="item">
+              <RouterLink to="/">
+                <img src="@/assets/icons/logo.svg" alt="" />
+              </RouterLink>
+              <div class="item__descr">
+                Правила пользования услугами курорта Политика в отношении
+                обработки персональных данных <br />
+                © ООО «Движение» 2023. Все права защищены.
+              </div>
             </div>
-            <a href="malito:takman59@mail.ru"> takman59@mail.ru </a>
+          </div>
+          <div class="col-md-6 col-sm-12 col-white">
+            <div class="item">
+              <h2 class="item__title">График работы</h2>
+              <div class="item__descr">
+                <div class="adress">
+                  618206, Пермский край, г. Чусовой, ул. Мира, 17, оф. 401
+                </div>
+                <a href="malito:takman59@mail.ru"> takman59@mail.ru </a>
 
-            <a href="tel:+7 (342) 256-95-83">+7 (342) 256-95-83</a>
+                <a href="tel:+7 (342) 256-95-83">+7 (342) 256-95-83</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -74,6 +82,9 @@ import Map from "@/components/Map/Map.vue";
 </template>
 
 <style lang="scss">
+.contact-invers .container__big {
+  display: flex;
+}
 .contant {
   display: flex;
   background: linear-gradient(
@@ -197,7 +208,11 @@ import Map from "@/components/Map/Map.vue";
   .contact-invers .col-black {
     padding: 35px 0;
   }
-  .contant .col-black .item {
+
+  // .contant .col-black .item {
+  //   padding-left: 25px;
+  // }
+  .contact-invers .col-white {
     padding-left: 25px;
   }
 }
@@ -213,12 +228,16 @@ import Map from "@/components/Map/Map.vue";
   }
   .contact-invers {
     background: linear-gradient(
-      180deg,
+      360deg,
       rgba(24, 31, 38, 1) 0%,
       rgba(24, 31, 38, 1) 50%,
       rgba(255, 255, 255, 1) 50%,
       rgba(255, 255, 255, 1) 100%
     );
+  }
+  .contact-invers .footer__row {
+    display: flex;
+    flex-flow: column-reverse;
   }
   .contant .col-black .item {
     padding-left: 0px;
@@ -232,11 +251,35 @@ import Map from "@/components/Map/Map.vue";
     display: flex;
     margin-top: 0;
   }
+  .contant .col-white,
+  .contant .col-black {
+    min-height: 270px;
+  }
+  .contact-invers .col-white,
+  .contact-invers .col-black {
+    min-height: 270px;
+  }
 }
-@media (max-width: 450px) {
-  // .contant .col-white,
-  // .contant .col-black {
-  //   padding: 35px 0;
+@media (max-width: 600px) {
+  .contant .col-white,
+  .contant .col-black {
+    min-height: 310px;
+  }
+  .contact-invers .col-white,
+  .contact-invers .col-black {
+    min-height: 240px;
+  }
+  .item__title {
+    font-size: 25px;
+    line-height: 28px;
+  }
+  // .contant .col-wh .item .small-title {
+  //   line-height: 16px;
+  //   font-size: 15px;
   // }
+  .contant .col-black .item .small-descr {
+    line-height: 16px;
+    font-size: 15px;
+  }
 }
 </style>

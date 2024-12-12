@@ -29,19 +29,19 @@ p {
   --color-third: #181f26;
 }
 h1 {
-  font-size: clamp(40px, 6vw, 80px);
+  font-size: clamp(40px, 3vw, 80px);
   line-height: 92px;
   color: var(--color-main);
   font-weight: bold;
 }
 h2 {
-  font-size: clamp(35px, 6vw, 72px);
+  font-size: clamp(35px, 3vw, 72px);
   line-height: 80px;
   color: var(--color-main);
   font-weight: bold;
 }
 h3 {
-  font-size: clamp(25px, 6vw, 64px);
+  font-size: clamp(25px, 3vw, 64px);
   line-height: 80px;
   color: var(--color-main);
   font-weight: bold;

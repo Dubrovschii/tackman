@@ -355,4 +355,13 @@ const checkCard = () => {
     flex-flow: column;
   }
 }
+@media (max-width: 576px) {
+  .pay-icon {
+    flex-flow: column;
+    img {
+      display: block;
+      margin: 15px auto;
+    }
+  }
+}
 </style>
